@@ -44,7 +44,7 @@ import java.util.List;
  * Custom view that shows a pie chart and, optionally, a label.
  */
 public class PieChart extends ViewGroup {
-    private List<Item> mData = new ArrayList<Item>();
+    private List<Item> mData = new ArrayList<>();
 
     private float mTotal = 0.0f;
 
